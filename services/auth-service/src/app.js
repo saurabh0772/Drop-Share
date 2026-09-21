@@ -8,7 +8,7 @@ app.use(express.json());
 app.get('/health', (req, res) => {
     res.json({
         status: "ok",
-        service: "Auth service is Running."
+        service: "auth-service"
     })
 })
 
