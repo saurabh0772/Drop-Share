@@ -1,0 +1,101 @@
+# =========================
+# Dependencies
+# =========================
+
+node_modules/
+.pnpm-store/
+
+
+# =========================
+# Environment Variables
+# =========================
+
+.env
+.env.*
+!.env.example
+
+
+# =========================
+# Logs
+# =========================
+
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# =========================
+# Build / Coverage
+# =========================
+
+dist/
+build/
+coverage/
+.vite/
+
+
+# =========================
+# Temporary Files
+# =========================
+
+tmp/
+temp/
+*.tmp
+
+
+# =========================
+# VS Code
+# =========================
+
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+
+# =========================
+# Cursor
+# =========================
+
+.cursor/
+
+
+# =========================
+# OS Files
+# =========================
+
+.DS_Store
+Thumbs.db
+
+
+# =========================
+# Docker
+# =========================
+
+*.pid
+
+
+# =========================
+# Local Database / Data
+# =========================
+
+data/
+mongodb-data/
+redis-data/
+
+
+# =========================
+# Testing
+# =========================
+
+.nyc_output/
+
+
+# =========================
+# Miscellaneous
+# =========================
+
+*.swp
+*.swo
